@@ -1,0 +1,18 @@
+$primary-color: #4dc9ce;
+$accent-color: #4bc7d0;
+$theme-color: #007481;
+$white: #ffffff;
+
+// Font Tiers
+$font-bold-xs: normal normal bold 0.75rem/14px 'tajawal-md'; // [Font-size:12px] Sidebar-menu
+$font-bold-sm: normal normal bold 0.875rem/20px 'tajawal-md'; // [Font-size:14px] Breadcrumb, Overveiw-label
+$font-bold-md: normal normal bold 1rem/22px 'tajawal-md'; // [Font-size:16px] Table-header, Label, Page-active-btn, Search-button
+$font-bold-lg: normal normal bold 1.125rem/26px 'tajawal-md'; // [Font-size:18px] Card-block-header, form-block-header
+$font-bold-xl: normal normal bold 1.25rem/28px 'tajawal-md'; // [Font-size:20px] Card-header, Footer-heading
+$font-bold-xxl: normal normal bold 1.875rem/42px 'tajawal-md'; // [Font-size:30px] Page-title
+
+$font-medium-xs: normal normal 400 1rem/22px 'tajawal-md'; // [Font-size:16px] Card-sub-header, Card-Sub-text, Placeholder, Page-btn, Page-btn-text
+$font-medium-sm: normal normal 400 1.05rem/20px 'tajawal-md'; // [Font-size:14px] Table-body
+$font-normal-xs: normal normal normal 0.75rem/14px 'tajawal-md';
+$font-normal-md: normal normal normal 1rem/22px 'tajawal-md'; // [Font-size:16px] Footer-text, Overview-value
+$font-normal-small: normal normal normal 1.25rem/24px 'tajawal-md';

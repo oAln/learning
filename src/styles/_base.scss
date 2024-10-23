@@ -1,0 +1,51 @@
+.code-snippet {
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: 1px solid #d3dce6;
+    background-color: #383b40;
+    margin: 16px 0;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #d5d5d5;
+}
+
+p {
+    margin: 5px 0;
+}
+
+code {
+    font-size: 1rem;
+    color: #d3d3d3;
+}
+
+strong {
+    code {
+        font-size: 1.3rem;
+        color: #c80955;
+    }
+}
+
+.comments {
+    color: #ffddbe;
+}
+
+.keyword {
+    color: #c678dd;
+}
+
+.built-in {
+    color: #e6c07b;
+}
+
+.string {
+    color: #98c379;
+}
+
+.result {
+    color: #2ceef1;
+}
+
+.underline {
+    text-decoration: underline;
+}

@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-12 m-auto">
+            <section class="topic">
+                <h3 class="mb-2">1). <span class="underline">Symbols</span></h3>
+                <p><strong><code>Symbols</code></strong> are new primitive data type introduced in
+                    <strong>ES6</strong>
+                    which represents a unique identifier.
+                </p>
+                <p>
+                    Symbols are <strong>immutable</strong> (cannot be changed) and are <strong>unique</strong>.
+                </p>
+                <div class="code-snippet">
+                    <code>
+                <p class="comments">// id is a symbol with the description "id"</p>
+                <p class="comments">// define => const symbol = Symbol('value')</p>
+                <p class="comments">// check description => symbol.description => <span class="result">'value'</span></p>
+                <br/>
+                <span class="keyword">let </span>id =
+                <span class="built-in">Symbol</span>(<span class="string">"id"</span>);
+                <br/>
+                <span class="keyword">let </span>
+                user = {{'{'}}
+                name: <span class="string">"John"</span>
+                {{'}'}}
+                <br/>
+                user[id] = <span class="string">1</span>;<span class="comments"> // not "id": 1</span>
+                </code>
+                </div>
+                <div>By default, only two primitive types serve as object keys:
+                    <p>1. String type</p>
+                    <p>2. Symbol type.</p>
+                    <p>If two scripts(code snippet) has the same object identifier(key) and then there will be no
+                        conflict between them as symbols are different, even if they have the same name but if we
+                        used a string instead of a symbol, then there would be a conflict.</p>
+                </div>
+            </section>
+            <hr />
+            <section class="topic">
+                <h3 class="mb-2">Symbols</h3>
+                <p><strong><code>Symbols</code></strong> are new primitive data type introduced in
+                    <strong>ES6</strong>
+                    which represents a unique identifier.
+                </p>
+                <p>
+                    Symbols are <strong>immutable</strong> (cannot be changed) and are <strong>unique</strong>.
+                </p>
+                <div class="code-snippet">
+                    <code>
+                <p class="comments">// id is a symbol with the description "id"</p>
+                <p class="comments">// define => const symbol = Symbol('value')</p>
+                <p class="comments">// check description => symbol.description => <span class="result">'value'</span></p>
+                <br/>
+                <span class="keyword">let </span>id =
+                <span class="built-in">Symbol</span>(<span class="string">"id"</span>);
+                <br/>
+                <span class="keyword">let </span>
+                user = {{'{'}}
+                name: <span class="string">"John"</span>
+                {{'}'}}
+                <br/>
+                user[id] = <span class="string">1</span>;<span class="comments"> // not "id": 1</span>
+                </code>
+                </div>
+                <div>By default, only two primitive types serve as object keys:
+                    <p>1. String type</p>
+                    <p>2. Symbol type.</p>
+                    <p>If two scripts(code snippet) has the same object identifier(key) and then there will be no
+                        conflict between them as symbols are different, even if they have the same name but if we
+                        used a string instead of a symbol, then there would be a conflict.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>

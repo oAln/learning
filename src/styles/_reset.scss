@@ -1,0 +1,23 @@
+@import './variables';
+
+.form-check-input[type='radio'] {
+  appearance: auto;
+}
+
+.form-check-input:checked {
+  background-color: $theme-color;
+  border-color: $theme-color;
+}
+
+h2,
+h3,
+table,
+p,
+ol,
+.breadcrumb {
+  margin: 0;
+}
+
+nav.nav.nav-tabs {
+  border: none;
+}
